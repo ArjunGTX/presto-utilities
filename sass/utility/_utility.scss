@@ -22,7 +22,7 @@
   }
 }
 
-.icon {
+.feather {
   width: map-get($icon-sizes, "sm");
   height: map-get($icon-sizes, "sm");
   stroke: currentColor;
@@ -33,15 +33,9 @@
 }
 @each $size, $value in $icon-sizes {
   .icon-#{$size} {
-    @include create-circle($value);
+    @include create-size($value);
   }
 }
-@each $size, $value in $avatar-sizes {
-  .avatar-#{$size} {
-    @include create-circle($value);
-  }
-}
-
 @each $color, $value in $text-colors {
   .icon-#{$color}-fill {
     fill: $value;

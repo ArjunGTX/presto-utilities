@@ -128,14 +128,6 @@ $icon-sizes: (
   "lg": $base-icon-size * 1.5,
   "xl": $base-icon-size * 1.75,
 );
-$avatar-sizes: (
-  "xs": $base-avatar-sizes,
-  "sm": $base-avatar-sizes * 1.25,
-  "md": $base-avatar-sizes,
-  "lg": $base-avatar-sizes * 1.5,
-  "xl": $base-avatar-sizes * 1.75,
-);
-
 $flex-directions: (
   "fr": row,
   "fc": column,
