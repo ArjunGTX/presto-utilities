@@ -12,10 +12,9 @@
   }
 }
 
-@mixin create-circle($size: 1.25rem) {
+@mixin create-size($size: 1.25rem) {
   width: $size;
   height: $size;
-  border-radius: 50%;
 }
 
 @mixin button-hover($map: $background-colors, $color: "primary") {
